@@ -73,5 +73,5 @@ def apply_filter(filter_type):
         img_processed = cv2.resize(temp, (width, height), interpolation=cv2.INTER_NEAREST)
 
     elif filter_type == 'blur_background':
-        height, width = img_processed.shape[:4]
+        height, width = img_processed.shape[:2]
         mask = np.zeros((height, width), dtype=np.uint8)
