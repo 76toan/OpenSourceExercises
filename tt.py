@@ -5,7 +5,7 @@ import time
 
 # Kích thước cửa sổ game
 WINDOWWIDTH = 800
-WINDOWHEIGHT = 500
+WINDOWHEIGHT = 800
 
 # Khởi tạo Pygame
 pygame.init()
